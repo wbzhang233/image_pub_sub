@@ -1,0 +1,8 @@
+<launch>
+	<node name="image_publisher" pkg="image_pub_sub" type="imagepub" output="screen">
+		<rosparam command="load" file="$(find image_pub_sub)/config/image_pub.yaml"/>
+        <param name="image_pub_topic" value="/image_pub/rgb/image"/>
+        <param name="video_path" value="/home/wbzhang/CLionProjects/chatper3_opticalflow/vtest.avi"/>
+	</node>
+</launch>
+

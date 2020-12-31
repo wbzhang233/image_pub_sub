@@ -1,0 +1,10 @@
+
+# 发布图片消息的话题
+image_pub_topic: /image_pub/rgb/image_raw
+
+# 视频路径
+video_path: /home/wbzhang/CLionProjects/chatper3_opticalflow/vtest.avi
+
+# 图像序列路径
+seq_path: /home/wbzhang/bags/obs6-1
+
