@@ -1,10 +1,13 @@
 
 # 发布图片消息的话题
-image_pub_topic: /image_pub/rgb/image_raw
+image_pub_topic: /camera/rgb/image_raw
+
+# 输入方式
+input_flag: True
 
 # 视频路径
 video_path: /home/wbzhang/CLionProjects/chatper3_opticalflow/vtest.avi
 
 # 图像序列路径
-seq_path: /home/wbzhang/bags/obs6-1
+seq_path: /media/1417-1859/Datasets/kitti/00/image_1/
 
